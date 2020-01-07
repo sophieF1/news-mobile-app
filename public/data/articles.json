@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "title": "Software Engineering is more than just writing good code",
+      "content": "Article coming soon",
+      "dateString": "22 Jan 2019",
+      "baseImageName": "coding",
+      "articleType": "TOP_STORY",
+      "isFavourite": true
+    },
+    {
+      "id": 2,
+      "title": "Understanding Moon signs and what they say about you",
+      "content": "Article coming soon",
+      "dateString": "21 Jan 2019",
+      "baseImageName": "astrology",
+      "articleType": "ASTROLOGY",
+      "isFavourite": false
+    },
+    {
+      "id": 3,
+      "title": "Astrology and Science",
+      "content": "Article coming soon",
+      "dateString": "20 Jan 2019",
+      "baseImageName": "astrology",
+      "articleType": "ASTROLOGY",
+      "isFavourite": false
+    },
+    {
+      "id": 4,
+      "title": "What’s next for Vue.js? The road to Vue 3.0",
+      "content": "Article coming soon",
+      "dateString": "19 Jan 2019",
+      "baseImageName": "coding",
+      "articleType": "TOP_STORY",
+      "isFavourite": false
+    },
+    {
+      "id": 5,
+      "title": "Creating native mobile apps without writing native code",
+      "content": "Article coming soon",
+      "dateString": "18 Jan 2019",
+      "baseImageName": "coding",
+      "articleType": "TOP_STORY",
+      "isFavourite": true
+    },
+    {
+      "id": 6,
+      "title": "What are Cusp signs",
+      "content": "Article coming soon",
+      "dateString": "17 Jan 2019",
+      "baseImageName": "astrology",
+      "articleType": "ASTROLOGY",
+      "isFavourite": false
+    }
+  ]
+  

@@ -9,7 +9,6 @@ class NewsService {
         return response.json();
       })
       .then((serverArticles) => {
-
         const newsArticles = serverArticles
           .filter((serverArticle: any) => serverArticle.articleType === articleType)
           .map((serverArticle: any) => {
@@ -27,6 +26,29 @@ class NewsService {
         return newsArticles;
       });
   }
+
+  getFavourites() {
+    return fetch('/data/articles.json')
+    .then((response) => {
+      return response.json();
+    })
+    .then((favouriteArticles) => {
+      const favourites = favouriteArticles
+      .filter((favouriteArticle: any) => favouriteArticle.isFavourite === true)
+      .map((favouriteArticle: any) => {
+        return {
+          id: favouriteArticle.id,
+          title: favouriteArticle.title,
+          content: favouriteArticle.content,
+          dateString: favouriteArticle.dateString,
+          baseImageName: favouriteArticle.baseImageName,
+          articleType: favouriteArticle.articleType,
+          isFavourite: favouriteArticle.isFavourite
+        } as NewsArticle;
+      });
+    return favourites;
+  });
+}
 }
 
 export default new NewsService();
